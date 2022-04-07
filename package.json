@@ -18,7 +18,7 @@
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "start": "node index.js"
+
     "build": "babel ./src --out-dir ./lib",
     "clean": "rm -rf ./lib ./node_modules",
     "prepublish": "npm run build",
