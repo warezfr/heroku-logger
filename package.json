@@ -23,6 +23,7 @@
     "prepublish": "npm run build",
     "release": "np",
     "test": "npm run build && mocha"
+    "start": "node index.js"
   },
   "keywords": [
     "bunyan",
