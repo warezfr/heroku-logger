@@ -24,7 +24,7 @@
     "clean": "rm -rf ./lib ./node_modules",
     "prepublish": "npm run build",
     "release": "np",
-    "test": "npm run build && mocha",
+    "test": "npm run build && mocha"
 
 
   },
