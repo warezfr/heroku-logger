@@ -19,12 +19,13 @@
   },
   "scripts": {
 
-    "start": "node server.js",
+
     "build": "babel ./src --out-dir ./lib",
     "clean": "rm -rf ./lib ./node_modules",
     "prepublish": "npm run build",
     "release": "np",
-    "test": "npm run build && mocha"
+    "test": "npm run build && mocha",
+    "start": "node server.js"
 
   },
   "keywords": [
